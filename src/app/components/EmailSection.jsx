@@ -51,9 +51,7 @@ const EmailSection = () => {
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           {" "}
-          I&apos;m currently looking for new opportunities, my inbox is always
-          open. Whether you have a question or just want to say hi, I&apos;ll
-          try my best to get back to you!
+          The form system is temporarily closed as it is in BETA phase and API testing. You can reach me through my other social media accounts.
         </p>
         <div className="socials flex flex-row gap-2">
           <Link href="https://github.com/canozcano">
@@ -84,7 +82,7 @@ const EmailSection = () => {
                 id="email"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="yourmail@mail.com"
+                placeholder="SINCE IT IS A BETA TEST, YOU CAN REACH IT FROM MY OTHER ACCOUNTS"
               />
             </div>
             <div className="mb-6">
@@ -100,7 +98,7 @@ const EmailSection = () => {
                 id="subject"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="Just saying hi"
+                placeholder="SINCE IT IS A BETA TEST, YOU CAN REACH IT FROM MY OTHER ACCOUNTS"
               />
             </div>
             <div className="mb-6">
@@ -114,14 +112,14 @@ const EmailSection = () => {
                 name="message"
                 id="message"
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="Let's talk about..."
+                placeholder="SINCE IT IS A BETA TEST, YOU CAN REACH IT FROM MY OTHER ACCOUNTS"
               />
             </div>
             <button
               type="submit"
-              className="bg-primary-500 hover:bg-primary-600 text-white font-medium py-2.5 px-5 rounded-lg w-full"
+              className="bg-red-500 hover:bg-red-600 text-white font-medium py-2.5 px-5 rounded-lg w-full"
             >
-              Send Message
+              Send Message (BETA)
             </button>
           </form>
         )}
