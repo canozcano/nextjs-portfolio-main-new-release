@@ -40,16 +40,16 @@ const HeroSection = () => {
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
                I am new to the software industry and eager to improve myself.
           </p>
-          <div>
+          <div className="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-2">
             <Link
               href="#contact"
-              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-r from-cyan-500 to-blue-500"
+              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-r space-y-4 from-cyan-500 to-blue-500"
             >
               Hire Me
             </Link>
             <Link
               href="/cv.pdf"
-              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-r from-cyan-500 to-blue-500"
+              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-r space-y-4 from-cyan-500 to-blue-500"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 Download CV
@@ -79,3 +79,5 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+
+
